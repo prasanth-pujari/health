@@ -11,4 +11,4 @@
     command: sudo systemctl start docker
 
   - name: deploy insurance application
-    command: sudo docker run -itd -p 8084:8083 pujariprasanth/health:1.0
+    command: sudo docker run -itd -p 8085:8083 pujariprasanth/health:1.0
